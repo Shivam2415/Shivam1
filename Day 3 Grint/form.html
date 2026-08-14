@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        th,td,tr{ padding:5px; border:1px solid black; }
+    </style>
+    <style> th{background-color: yellow;} </style>
+    <style> td{background-color: SkyBlue;} </style>
+</head>
+<body>
+<form>
+            <label for="name">Full Name</label></br>
+            <input type="text" id="name" name="name" required placeholder="Enter Your Full Name">
+            <br>
+            <label for="email">Email</label></br>
+            <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+            <br>
+            <label for="password">Password</label></br>
+            <input type="password" id="password" name="password" required minlength="8" placeholder="Enter Your Password">
+            <br>
+            <label for="Date of Birth">Date of Birth</label></br>
+            <input type="date" id="Date of Birth" name="Date of Birth" required></br>
+            <label>Gender:</label><br>
+             <input type="radio" name="gender">
+             <label>male</label>
+             <input type="radio" name="gender">
+             <label>Female</label>
+             <input type="radio" name="gender">
+             <label>others</label>
+             <br />
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" name="skills" value="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="skills" value="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" name="skills" value="javascript">
+            <label for="js">JavaScript</label><br><br>
+            <label for="Message">Message:</label><br>
+            <textarea id="Message" placeholder="give your message here"></textarea><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <!-- table -->
+               <table>
+       <thead>
+        <tr>
+            <th>Level 1</th>
+            <th>Level 2</th>
+            <th>Level 3</th>
+            <th>Info</th>
+            <th>Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="4">System Apps</td>
+            <td rowspan="3">SystemEnv</td>
+            <td>App Test</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td>App Memory</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td>App Test</td>
+            <td>Bar</td>
+        </tr>
+        <tr>
+            <td>SystemEnv2</td>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td rowspan="2">System Memory</td>
+            <td rowspan="2">Memory Test</td>
+            <td>Memory Func</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td>Apes Test</td>
+            <td>Foo</td>
+        </tr>
+    </tbody>
+    </table>
+</form>
+</body>
+</html>
