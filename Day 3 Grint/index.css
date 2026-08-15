@@ -1,9 +1,25 @@
 h2{
-    font-family: cursive; background-color:bisque;
+    font-family: cursive; color: black;background-color: beige;
+    display:inline-block;/*this line stops the background from streching full screen */
+    padding: 4px 12px;/*Optionl:adds a little brathing room around the text or 
+    you can that it enlarge the text background are by some dgree so the text wouldn't get conjusted */
+    border-radius: 20px;/*adds rounded/circular corners*/
+    /* it has many other uses too like for slightly rounded corners:use border-radius: 8px;
+    for pill/capsule shape(fully rounded ends):use border-radius: 20px or border-radius: 50px;
+    for complete circle(if the element is a square): use border-radius: 50% */
 }
 p{
-    font-family: cursive; background-color: rgb(215, 250, 245);
+    font-family: cursive; color:aliceblue}
+ul,ol{ font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: aliceblue;}/*changes colour of the text*/
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}/*changes font of the text*/
+html{background-image: url(uwp5068015.jpeg);/*adds up image to background*/
+    background-size: cover;/*resizes the image so it covers background accurately without being oversized or small*/
+    background-position: center;/*places image at center of the webpage*/
+    background-attachment: fixed; }/* fixes image so it wont get scrolled by the page when we try scrolling*/
+h1{color: darkslategrey; background-color: rgb(230,211,177); padding: 8px 24px; display:inline-block; border-radius: 50px;}
+button{border-radius: 50px;
+color: black;/* chages colour of the text written in button */
+background-color: pink;/* changes colour of the button*/
 }
-ul,ol{ font-family:Verdana, Geneva, Tahoma, sans-serif; background-color: cadetblue }
-h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; background-color: aliceblue;}
-html{background-color: black;}
+label{color: white}
