@@ -22,4 +22,11 @@ button{border-radius: 50px;
 color: black;/* chages colour of the text written in button */
 background-color: pink;/* changes colour of the button*/
 }
-label{color: white}
+.Formhead{color: black;background-color: burlywood;display:inline-block;padding:2px 6px;border-radius: 20px;}
+.blockhead{background-color: black; color: grey;border-radius: 20px; background-image: url(uwp5068015.jpeg);background-position: center;background-size: cover;width: 15%;height: 30px;}
+#ironhead{color: black;background-color: darkkhaki;border-radius: 20px;padding: 2px 6px}
+.goldhead{background-color: lightgoldenrodyellow;color: black;padding: 2px 6px;border-radius: 20px;}
+#Message{background-image: url(uwp5068015.jpeg);background-position: center;background-size: cover;border-radius: 20px;color: grey;}
+textarea{width: 20%;height: 150px;/*these help increase size of text area*/
+    padding-left: 15px;/*Pushes the text to the right so it doesn't touch the curve*/
+}
